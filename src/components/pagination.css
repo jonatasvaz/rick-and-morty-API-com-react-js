@@ -1,0 +1,23 @@
+.btns{
+    display: flex;
+    justify-content: center;
+}
+.btns li{
+    list-style: none;
+}
+
+.btns li button{
+    width: 100px;
+    height: 35px;
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    background-color: rgb(28, 122, 122);
+    border-radius: 8px;
+    color: #fff;
+}
+.btns li button:hover{
+    background-color: rgb(6, 49, 49);
+    transition:  0.5 s;
+}

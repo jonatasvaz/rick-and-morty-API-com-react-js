@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(63, 61, 55);
+    height: 90px;
+}
+.logo{
+font-size: 25px;
+ line-height: 90px;
+ font-weight: 600;
+ margin-left: 15px;
+ color: #000;
+ font-weight: 600;
+}
+.logo span{
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+.rotas ul{
+    display: flex;
+    list-style: none;
+    margin-right: 35px;
+}
+.rotas ul li{
+    margin-left: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 90px;
+}
+.rotas ul li:hover{
+    color: rgb(15, 15, 15);
+    cursor: pointer;
+}
